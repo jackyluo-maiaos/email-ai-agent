@@ -1,0 +1,26 @@
+[
+  {
+    "id": "commercial-complete",
+    "from": "partnerships@luma-beauty.example",
+    "fromName": "Luma Beauty Partnerships",
+    "subject": "Paid TikTok campaign for our Glow Serum",
+    "body": "We would love a creator partnership featuring product: Glow Serum. Our budget is $1,500 for 3 TikTok videos, plus 15% commission. The campaign includes a 30-day ad code and 60-day usage rights."
+  },
+  {
+    "id": "commercial-missing",
+    "from": "maya@northstar-media.example",
+    "fromName": "Northstar Media Agency",
+    "subject": "Creator collaboration opportunity",
+    "body": "We are planning a skincare campaign and would love to collaborate. Can you share your rate card and availability?"
+  },
+  {
+    "id": "system",
+    "from": "newsletter@platform-updates.example",
+    "fromName": "Platform Updates",
+    "subject": "Your weekly digest",
+    "body": "Here are this week's product updates. Unsubscribe at any time.",
+    "headers": {
+      "List-Unsubscribe": "<https://platform-updates.example/unsubscribe>"
+    }
+  }
+]
