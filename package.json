@@ -1,0 +1,35 @@
+{
+  "name": "@maiaos/email-ai-agent",
+  "version": "0.1.0",
+  "description": "Open email-to-brand-deal primitives for creator businesses.",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/*.test.js",
+    "demo": "npm run build && node dist/examples/demo.js"
+  },
+  "keywords": [
+    "email-agent",
+    "creator-economy",
+    "influencer-marketing",
+    "brand-deals",
+    "email-classification",
+    "ai-agent"
+  ],
+  "author": "MAIAOS Inc.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jackyluo-maiaos/email-ai-agent.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "typescript": "^5.9.3"
+  }
+}
